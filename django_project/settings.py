@@ -45,9 +45,9 @@ INSTALLED_APPS = [
     "accounts.apps.AccountsConfig",
     "posts.apps.PostsConfig",
     'rest_framework',
-    "allauth", # new
-    "allauth.account", # new
-    "allauth.socialaccount", #new
+    "allauth", 
+    "allauth.account",
+    "allauth.socialaccount",
     "corsheaders",
     'dj_rest_auth.registration',
     'rest_framework.authtoken',
